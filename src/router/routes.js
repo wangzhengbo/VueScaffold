@@ -27,13 +27,13 @@ export default [
     component: () => new Promise(resolve => {
       require.ensure([], require => {
         resolve(require('@/components/asyncRoute/index'))
-      }, 'asyncRoute')
+      }, 'async-route-using-require-ensure')
     })
   },
   {
     path: '/asyncRouteWithBundleName',
     name: 'asyncRouteWithBundleName',
-    component: () => import(/* webpackChunkName: 'async-route' */ '@/components/asyncRoute/withBundleName')
+    component: () => import(/* webpackChunkName: 'async-route-using-import' */ '@/components/asyncRoute/withBundleName')
   },
   {
     path: '/asyncRouteWithoutBundleName',
