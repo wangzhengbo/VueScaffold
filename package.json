@@ -11,9 +11,13 @@
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
     "lint": "eslint --ext .js,.vue src test/unit test/e2e/specs",
-    "build": "node build/build.js"
+    "lint:fix": "eslint --fix --ext .js,.vue src test/unit test/e2e/specs",
+    "build": "node build/build.js",
+    "build:report": "cross-env ANALYZER_REPORT=true node build/build.js"
   },
   "dependencies": {
+    "babel-plugin-lodash": "^3.3.4",
+    "cross-env": "^5.1.6",
     "lodash": "^4.17.10",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"

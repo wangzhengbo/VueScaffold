@@ -9,37 +9,37 @@
   </div>
 </template>
 <script>
-  import _ from 'lodash'
+import _ from 'lodash'
 
-  export default {
-    data() {
-      return {
-        users: [
-          {
-            id: 1,
-            name: 'AAA',
-            score: 100
-          },
-          {
-            id: 2,
-            name: 'BBB',
-            score: 90
-          },
-          {
-            id: 3,
-            name: 'CCC',
-            score: 70
-          }
-        ]
-      }
+export default {
+  data () {
+    return {
+      users: [
+        {
+          id: 1,
+          name: 'AAA',
+          score: 100
+        },
+        {
+          id: 2,
+          name: 'BBB',
+          score: 90
+        },
+        {
+          id: 3,
+          name: 'CCC',
+          score: 70
+        }
+      ]
+    }
+  },
+  computed: {
+    sum () {
+      return _.sumBy(this.users, user => user.score)
     },
-    computed: {
-      sum() {
-        return _.sumBy(this.users, user => user.score)
-      },
-      averageScore() {
-        return this.sum / this.users.length
-      }
+    averageScore () {
+      return this.sum / this.users.length
     }
   }
+}
 </script>
