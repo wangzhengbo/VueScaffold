@@ -1,6 +1,7 @@
 import Home from '@/components/home/index'
 import HelloWorld from '@/components/HelloWorld'
 import Lodash from '@/components/lodash/index'
+import Jquery from '@/components/jquery/index'
 
 export default [
   {
@@ -41,5 +42,10 @@ export default [
     path: '/asyncAwait',
     name: 'asyncAwait',
     component: () => import('@/components/asyncAwait/index')
+  },
+  {
+    path: '/jquery',
+    name: 'jquery',
+    component: Jquery
   }
 ]

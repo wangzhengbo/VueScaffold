@@ -20,6 +20,9 @@
       <li>
         <router-link to="/asyncAwait">aysnc / await</router-link>
       </li>
+      <li>
+        <router-link to="/jquery">aysnc fetch jquery</router-link>
+      </li>
     </ul>
   </div>
 </template>
