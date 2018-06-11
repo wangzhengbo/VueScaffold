@@ -2,6 +2,7 @@ import Home from '@/components/home/index'
 import HelloWorld from '@/components/HelloWorld'
 import Lodash from '@/components/lodash/index'
 import Jquery from '@/components/jquery/index'
+import Style from '@/components/style/index'
 
 export default [
   {
@@ -47,5 +48,10 @@ export default [
     path: '/jquery',
     name: 'jquery',
     component: Jquery
+  },
+  {
+    path: '/style',
+    name: 'style',
+    component: Style
   }
 ]

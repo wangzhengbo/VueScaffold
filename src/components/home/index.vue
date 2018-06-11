@@ -23,6 +23,9 @@
       <li>
         <router-link to="/jquery">aysnc fetch jquery</router-link>
       </li>
+      <li>
+        <router-link to="/style">style</router-link>
+      </li>
     </ul>
   </div>
 </template>
