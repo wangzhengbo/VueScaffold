@@ -1,4 +1,4 @@
-# webpack4
+# VueScaffold
 
 > A Vue.js project
 

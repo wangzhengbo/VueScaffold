@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <router-link v-if="$route.path !== '/'" to="/">返回首页</router-link>
     <router-view/>
   </div>
 </template>
