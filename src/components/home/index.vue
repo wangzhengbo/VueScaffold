@@ -17,6 +17,9 @@
       <li>
         <router-link to="/asyncRouteWithoutBundleName">异步路由（使用import, 未指定打包出来的chunk的名称）</router-link>
       </li>
+      <li>
+        <router-link to="/asyncAwait">aysnc / await</router-link>
+      </li>
     </ul>
   </div>
 </template>

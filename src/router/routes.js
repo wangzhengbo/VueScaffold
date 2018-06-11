@@ -36,5 +36,10 @@ export default [
     path: '/asyncRouteWithoutBundleName',
     name: 'asyncRouteWithoutBundleName',
     component: () => import('@/components/asyncRoute/withoutBundleName')
+  },
+  {
+    path: '/asyncAwait',
+    name: 'asyncAwait',
+    component: () => import('@/components/asyncAwait/index')
   }
 ]
