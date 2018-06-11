@@ -17,5 +17,24 @@ export default [
     path: '/lodash',
     name: 'lodash',
     component: Lodash
+  },
+  {
+    path: '/asyncRouteUsingRequireEnsure',
+    name: 'asyncRouteUsingRequireEnsure',
+    component: () => new Promise(resolve => {
+      require.ensure([], require => {
+        resolve(require('@/components/asyncRoute/index'))
+      }, 'asyncRoute')
+    })
+  },
+  {
+    path: '/asyncRouteWithBundleName',
+    name: 'asyncRouteWithBundleName',
+    component: () => import(/* webpackChunkName: 'async-route' */ '@/components/asyncRoute/withBundleName')
+  },
+  {
+    path: '/asyncRouteWithoutBundleName',
+    name: 'asyncRouteWithoutBundleName',
+    component: () => import('@/components/asyncRoute/withoutBundleName')
   }
 ]
