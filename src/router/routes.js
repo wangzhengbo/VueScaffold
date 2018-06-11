@@ -3,6 +3,7 @@ import HelloWorld from '@/components/HelloWorld'
 import Lodash from '@/components/lodash/index'
 import Jquery from '@/components/jquery/index'
 import Style from '@/components/style/index'
+import ElementUi from '@/components/elementUi/index'
 
 export default [
   {
@@ -53,5 +54,10 @@ export default [
     path: '/style',
     name: 'style',
     component: Style
+  },
+  {
+    path: '/elementUi',
+    name: 'elementUi',
+    component: ElementUi
   }
 ]
