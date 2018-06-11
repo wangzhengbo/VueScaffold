@@ -10,7 +10,15 @@ module.exports = {
     // Paths
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
-    proxyTable: {},
+    proxyTable: { // 代理配置示例
+      // '/context1': { // context1是调用后端接口时设置的上下文
+      //   target: 'http://serverIp:serverPort', // serverIp和serverPort是后端服务的ip和端口
+      //   changeOrigin: true,
+      //   pathRewrite: {
+      //     '^/context1': '/context2' // context2是后端服务的上下文，和context1可以相同
+      //   }
+      // }
+    },
 
     // Various Dev Server settings
     host: 'localhost', // can be overwritten by process.env.HOST
