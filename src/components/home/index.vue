@@ -5,6 +5,9 @@
       <li>
         <router-link to="/hello">Hello</router-link>
       </li>
+      <li>
+        <router-link to="/lodash">Lodash</router-link>
+      </li>
     </ul>
   </div>
 </template>
