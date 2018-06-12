@@ -3,6 +3,7 @@ import HelloWorld from '@/components/HelloWorld'
 import Lodash from '@/components/lodash/index'
 import Jquery from '@/components/jquery/index'
 import Style from '@/components/style/index'
+import Less from '@/components/less/index'
 import ElementUi from '@/components/elementUi/index'
 import VuexIncrease from '@/components/vuex/increase'
 import VuexDecrease from '@/components/vuex/decrease'
@@ -56,6 +57,11 @@ export default [
     path: '/style',
     name: 'style',
     component: Style
+  },
+  {
+    path: '/less',
+    name: 'less',
+    component: Less
   },
   {
     path: '/elementUi',
