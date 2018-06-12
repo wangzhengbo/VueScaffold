@@ -4,6 +4,8 @@ import Lodash from '@/components/lodash/index'
 import Jquery from '@/components/jquery/index'
 import Style from '@/components/style/index'
 import ElementUi from '@/components/elementUi/index'
+import VuexIncrease from '@/components/vuex/increase'
+import VuexDecrease from '@/components/vuex/decrease'
 
 export default [
   {
@@ -59,5 +61,15 @@ export default [
     path: '/elementUi',
     name: 'elementUi',
     component: ElementUi
+  },
+  {
+    path: '/vuex/increase',
+    name: 'vuexIncrease',
+    component: VuexIncrease
+  },
+  {
+    path: '/vuex/decrease',
+    name: 'vuexDecrease',
+    component: VuexDecrease
   }
 ]
