@@ -35,6 +35,9 @@
       <li>
         <router-link to="/vuex/increase">Vuex</router-link>
       </li>
+      <li>
+        <router-link to="/component">自定义公共组件</router-link>
+      </li>
     </ul>
   </div>
 </template>
