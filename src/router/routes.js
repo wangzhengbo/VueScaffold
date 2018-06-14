@@ -8,6 +8,7 @@ import ElementUi from '@/components/elementUi/index'
 import VuexIncrease from '@/components/vuex/increase'
 import VuexDecrease from '@/components/vuex/decrease'
 import Component from '@/components/component/index'
+import Http from '@/components/http/index'
 
 export default [
   {
@@ -83,5 +84,10 @@ export default [
     path: '/component',
     name: 'component',
     component: Component
+  },
+  {
+    path: '/http',
+    name: 'http',
+    component: Http
   }
 ]

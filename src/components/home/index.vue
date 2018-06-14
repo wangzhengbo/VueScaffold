@@ -38,6 +38,9 @@
       <li>
         <router-link to="/component">自定义公共组件</router-link>
       </li>
+      <li>
+        <router-link to="/http">后端接口调用</router-link>
+      </li>
     </ul>
   </div>
 </template>
