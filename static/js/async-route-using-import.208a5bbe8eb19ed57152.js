@@ -1,0 +1,2 @@
+webpackJsonp([1],{q2gI:function(e,n,t){"use strict";Object.defineProperty(n,"__esModule",{value:!0});var l={render:function(){var e=this.$createElement;return(this._self._c||e)("div",[this._v("\n  我是通过import来实现异步加载的，可以通过开发者工具看到我的加载情况哦。\n  我指定了分离的chunk的名称\n")])},staticRenderFns:[]},r=t("VU/8")(null,l,!1,null,null,null);n.default=r.exports}});
+//# sourceMappingURL=async-route-using-import.208a5bbe8eb19ed57152.js.map
