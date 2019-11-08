@@ -6,6 +6,8 @@ import commonComponents from './components/common/index'
 import router from './router'
 import store from './vuex/index'
 import App from './App'
+// import './flow/stupid-file'
+// import './components/flow/ExampleComponent'
 
 Vue.use(commonComponents)
 
