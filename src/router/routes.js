@@ -9,6 +9,7 @@ import VuexIncrease from '@/components/vuex/increase'
 import VuexDecrease from '@/components/vuex/decrease'
 import Component from '@/components/component/index'
 import Http from '@/components/http/index'
+import MaxLength from '@/components/maxLength/index'
 
 export default [
   {
@@ -89,5 +90,10 @@ export default [
     path: '/http',
     name: 'http',
     component: Http
+  },
+  {
+    path: '/maxLength',
+    name: 'maxLength',
+    component: MaxLength
   }
 ]

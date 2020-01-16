@@ -41,6 +41,9 @@
       <li>
         <router-link to="/http">后端接口调用</router-link>
       </li>
+      <li>
+        <router-link to="/maxLength">支持中文(中文算2个字符)的max length</router-link>
+      </li>
     </ul>
   </div>
 </template>
