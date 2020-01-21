@@ -11,6 +11,7 @@ import Component from '@/components/component/index'
 import Http from '@/components/http/index'
 import MaxLength from '@/components/maxLength/index'
 import VModel from '@/components/vModel/index'
+import Sentry from '@/components/sentry/index'
 
 export default [
   {
@@ -101,5 +102,10 @@ export default [
     path: '/vModel',
     name: 'vModel',
     component: VModel
+  },
+  {
+    path: '/sentry',
+    name: 'sentry',
+    component: Sentry
   }
 ]

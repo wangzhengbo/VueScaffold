@@ -9,9 +9,13 @@ import App from './App'
 // import './flow/stupid-file'
 // import './components/flow/ExampleComponent'
 
+import sentry from './sentry'
+
 Vue.use(commonComponents)
 
 Vue.config.productionTip = process.env.NODE_ENV !== 'production'
+
+sentry(Vue)
 
 /* eslint-disable no-new */
 new Vue({

@@ -47,6 +47,9 @@
       <li>
         <router-link to="/vModel">v-model</router-link>
       </li>
+      <li>
+        <router-link to="/sentry">Sentry</router-link>
+      </li>
     </ul>
   </div>
 </template>

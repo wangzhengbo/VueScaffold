@@ -73,3 +73,6 @@ selenium-debug.log
 *.ntvs*
 *.njsproj
 *.sln
+
+# Sentry
+.sentryclirc
