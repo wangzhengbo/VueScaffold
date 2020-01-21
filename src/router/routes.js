@@ -10,6 +10,7 @@ import VuexDecrease from '@/components/vuex/decrease'
 import Component from '@/components/component/index'
 import Http from '@/components/http/index'
 import MaxLength from '@/components/maxLength/index'
+import VModel from '@/components/vModel/index'
 
 export default [
   {
@@ -95,5 +96,10 @@ export default [
     path: '/maxLength',
     name: 'maxLength',
     component: MaxLength
+  },
+  {
+    path: '/vModel',
+    name: 'vModel',
+    component: VModel
   }
 ]

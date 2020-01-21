@@ -44,6 +44,9 @@
       <li>
         <router-link to="/maxLength">支持中文(中文算2个字符)的max length</router-link>
       </li>
+      <li>
+        <router-link to="/vModel">v-model</router-link>
+      </li>
     </ul>
   </div>
 </template>
