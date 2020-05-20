@@ -1,6 +1,6 @@
 {
-  "name": "VueScaffold",
-  "version": "1.0.0",
+  "name": "vue-scaffold",
+  "version": "1.0.1",
   "description": "A Vue.js project",
   "author": "wang zhengbo <wangzhengbo1984@hotmail.com>",
   "private": true,

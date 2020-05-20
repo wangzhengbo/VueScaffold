@@ -11,6 +11,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 const SentryWebpackPlugin = require('@sentry/webpack-plugin')
+const pkg = require('../package.json')
 
 const env = process.env.NODE_ENV === 'testing'
   ? require('../config/test.env')
@@ -122,6 +123,7 @@ const webpackConfig = merge(baseWebpackConfig, {
       }
     ]),
     new SentryWebpackPlugin({
+      release: pkg.version,
       include: ['dist'],
       configFile: '.sentryclirc'
     })
