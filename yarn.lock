@@ -200,9 +200,9 @@
     "@sentry/types" "5.11.0"
     tslib "^1.9.3"
 
-"@sentry/webpack-plugin@^1.9.3":
+"@sentry/webpack-plugin@~1.9.3":
   version "1.9.3"
-  resolved "https://registry.npmjs.org/@sentry/webpack-plugin/-/webpack-plugin-1.9.3.tgz#bf29bf16ae82863140639063ffa620a80452303b"
+  resolved "https://registry.yarnpkg.com/@sentry/webpack-plugin/-/webpack-plugin-1.9.3.tgz#bf29bf16ae82863140639063ffa620a80452303b"
   integrity sha512-b0ZExcvde15jSm7N5LjeosCcWFZFjZbGHEsXdNramm5B0TL+kwWA4thyW4v8rSrAEA2jxXDW2aop5cwBHCI2wg==
   dependencies:
     "@sentry/cli" "^1.49.0"
@@ -2724,9 +2724,9 @@ create-hmac@^1.1.0, create-hmac@^1.1.2, create-hmac@^1.1.4:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-cross-env@^6.0.3:
+cross-env@~6.0.3:
   version "6.0.3"
-  resolved "https://registry.npmjs.org/cross-env/-/cross-env-6.0.3.tgz#4256b71e49b3a40637a0ce70768a6ef5c72ae941"
+  resolved "https://registry.yarnpkg.com/cross-env/-/cross-env-6.0.3.tgz#4256b71e49b3a40637a0ce70768a6ef5c72ae941"
   integrity sha512-+KqxF6LCvfhWvADcDPqo64yVIB31gv/jQulX2NGzKS/g3GEVz6/pt4wjHFtFWsHMddebWD/sDthJemzM4MaAag==
   dependencies:
     cross-spawn "^7.0.0"
@@ -6873,10 +6873,10 @@ lodash.without@~4.4.0:
   resolved "https://registry.npmjs.org/lodash.without/-/lodash.without-4.4.0.tgz#3cd4574a00b67bae373a94b748772640507b7aac"
   integrity sha1-PNRXSgC2e643OpS3SHcmQFB7eqw=
 
-lodash@^4.15.0, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.2, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.2.0, lodash@^4.3.0, lodash@~4.17.15:
-  version "4.17.15"
-  resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+lodash@^4.15.0, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.2, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.2.0, lodash@^4.3.0, lodash@~4.17.19:
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 log-symbols@^1.0.2:
   version "1.0.2"
